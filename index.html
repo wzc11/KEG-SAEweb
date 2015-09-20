@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SAE</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+  <div id="navred" style="height:8px; background-color:#CD4835;"></div>
+  <div id="navbar">
+    <!-- 从右向左排列 -->
+    <a class="nav-a" href="#gotoTeam"><div class="nav-menu">Team</div></a>
+    <a class="nav-a" href="#gotoDownload"><div class="nav-menu">Download</div></a>
+    <a class="nav-a" href="#"><div class="nav-menu hover" hover="true">Introduce</div></a>
+  </div>
+  
+<div id="bodyframe" style="margin:auto; width:900px">
+
+  <div style="width:100%; text-shadow:0px 3px 4px #999999;">
+    <h1 style="font-size:em; font-family:Broadway;">
+      <span style="color:#CD4835;">Social Analytic</span>
+      <span style="color:#5C7683;">&nbsp;Engine</span>
+    </h1>
+  </div>
+  
+  <hr />
+  
+  <div style="color:#CD4835; text-shadow:0px 2px 3px #999999; font-size:1.2em">KEG &mdash;&mdash; Tsinghua University</div>
+  
+  <br/>
+  
+  <div>
+    <img src="image/1.png" alt="INTRODUCE" style="float:right; margin-right:-120px;"></img>
+    <p style="left:50px;width:750px; color:#444444;">&emsp;&emsp;Social Analytic Engine (SAE) is a novel for mining dynamic networks. Different from traditional social network analysis projects that focus on static networks, SAE is essentially designed for dynamic networks. The analysis results can beneﬁt many applications in social networks. We empirically study and verify the presented social analytic engine on various real social networks. Our experimental results demonstrate the effectiveness of proposed core technologies in the analytic engine.
+    </p>
+  </div>
+  
+  <br />
+  <br />
+  
+  <div class="text1" style="width:800px;">
+    <img src="image/1_14.png" style="position:absolute; z-index:-1; width:200px; float:left; margin-left:-80px;"/>
+      
+    <hr style="margin-left:80px;"/>
+    <p style="margin-left:100px;">
+      Random Factor Graph Model: it seamlessly incorporates the analysis results by the previous components for modeling and predicting the dynamics in the social network. The proposed model achieves much better prediction performance than traditional methods when testing on several typical prediction tasks in social networks. It also has a very good scalability performance.<br />
+      Distributed Topic Model: we implement a distributed LDA to model content information of the given network by extracting hidden topics of the corpus.
+    </p>
+    
+    <hr style="margin-left:120px;" />
+      <p style="margin-left:140px;">
+        Social Influence: it aims to quantify the influential strength between users from different angles (topics) in a large social network.<br />
+        Structural Hole Detection: it recognizes structural hole spanners who control the information flow in the social network.<br />
+        Social Tie Mining: it tries to reveal the fundamental factors that form the different types of social relationships.
+      </p>
+      
+      <hr style="margin-left:100px; margin-top:35px;" />
+      <p style="margin-left:80px;">
+      Macro Characterization: it statistics the macro properties of the given network such as density, diameter, degree distribution, community partition, etc..<br />
+      Micro Characterization: it statistics the micro properties of the given network such as centrality, homophily, reciprocity, prestige, reachability for specific nodes, etc..
+      </p>
+      
+      <hr style="margin-left:100px; margin-top:40px;" />
+      <p style="margin-left:120px;">
+      Dynamic Network Storage: to efficiently store and manipulate dynamic networks, it only store the changes of networks in adjacent time stamps. We use the memory mapping technique to automatically load the network data that is needed for the computation into the memory and to swap the least frequently used data onto the disk.<br />
+      Distributed Computation Engine: it provides a distributed platform to support computation scheduling on different machines and fast message passing between machines.
+      </p>
+      
+      <hr style="margin-left:80px; margin-top:40px;" />
+      <p style="margin-left:100px;">
+      Coauthor: it contains 1,629,217 Users, 2,623,832 Relationships and 2,174,141 Messages.<br />
+      Twitter: it contains 112,044 Users, 468,238 Relationships and 2,409,768 Messages.<br />
+      Weibo: it contains 1,787,443 Users,423,347,905 Relationships and 1,038,775,431 Messages.<br />
+      Slashdot: it contains 93,133 Users,964,562 Relationships and 8,714,700 Messages.<br />
+      Email: it contains 151 Users, 3,572 Relationships and 136,329 Messages. <br />
+      Mobile: it contains 106 Users, 5,436 Relationships and 16,807 Messages.
+      </p>
+  </div>
+
+  <br /><br />
+  
+  <div style="margin-left:-40px;">
+    <div>
+      <div class="foot-right"><img src="image/2.png" alt="download"></img></div>
+      <div class="foot-left">
+	    <div class="foot-bg" >
+        <a class="foot-a" name="gotoDownload" onclick="">Download</a></div>
+        <br />
+        <div class="foot-inner">
+        </div>
+      </div>
+    </div>
+    
+    <br />
+    
+    <div>
+      <img class="foot-right" src="image/3.png" alt="download"></img>
+      <div class="foot-left">
+	  <div class="foot-bg" >
+        <a class="foot-a" name="gotoTeam" onclick="changeShow(this);">Team</a> </div>
+        <br />
+        <div class="foot-inner" style="display:none;">
+			<ul class="card-ul">
+				<li >
+				<p  class="card">
+					<a href="http://keg.cs.tsinghua.edu.cn/jietang/"><img src="image/tangjie.png" alt="Tang Jie" style="float:left" ></img></a>  
+					Name: Jie Tang <br/>Position: Associate Professor <br/>Personal site: <a href="http://keg.cs.tsinghua.edu.cn/jietang/">  Enter</a> </p>
+				</li>
+				<li >
+				<p  class="card">
+					<a href="http://keg.cs.tsinghua.edu.cn/jietang/"><img src="image/tangjie.png" alt="Tang Jie" style="float:left" ></img></a>  
+					Name: Jie Tang <br/>Position: Associate Professor <br/>Personal site: <a href="http://keg.cs.tsinghua.edu.cn/jietang/">  Enter</a> </p>
+				</li>
+				
+				<li >
+				<p  class="card">
+					<a href="http://keg.cs.tsinghua.edu.cn/jietang/"><img src="image/tangjie.png" alt="Tang Jie" style="float:left" ></img></a>  
+					Name: Jie Tang <br/>Position: Associate Professor <br/>Personal site: <a href="http://keg.cs.tsinghua.edu.cn/jietang/">  Enter</a> </p>
+				</li>
+				<li >
+				<p  class="card">
+					<a href="http://keg.cs.tsinghua.edu.cn/jietang/"><img src="image/tangjie.png" alt="Tang Jie" style="float:left" ></img></a>  
+					Name: Jie Tang <br/>Position: Associate Professor <br/>Personal site: <a href="http://keg.cs.tsinghua.edu.cn/jietang/">  Enter</a>  </p>
+				</li>
+			</ul>
+        </div>
+      </div>
+      
+    </div>
+    
+    <br /><br />
+  </div>
+  
+</div>
+<script>
+  function changeShow(v) {
+    v0=v.parentElement.parentElement.getElementsByClassName('foot-inner')[0];
+    v1=v.parentElement.parentElement.getElementsByClassName('foot-bg')[0];
+    if(v0.style.visibility=='hidden') {
+      v0.style.visibility='visible';
+      v0.style.display='block';
+    } else {
+      v0.style.display=(v0.style.display=='none')?'block':'none';
+	  v1.style.height=0;
+	  v1.style.paddingTop=0;
+    }
+  }
+</script>
+</body>
+</html>

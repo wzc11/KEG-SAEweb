@@ -1,0 +1,88 @@
+body {
+  /* width: 100%; */
+  min-width: 1000px;
+  margin: 0px;
+  background-color: white;
+  font-family: Georgia, serif;
+  background-image: url(../image/background/1_01.png);
+  background-repeat: repeat;
+  background-position: center 0px;
+}
+
+#navbar {
+  height: 48px;
+  /* width: 100%; */
+  padding-right: 10%;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: white;
+  text-align: right;
+  overflow: visible;
+  box-shadow: 0px 4px 8px 0px #CCCCCC;
+}
+.nav-a {
+  text-decoration: none;
+}
+.nav-a:link, .nav-a:visited {
+  color: #4A4A4A;
+}
+.nav-a:hover, .nav-a:active{
+  color: #0000FF;
+}
+.nav-menu {
+  width: 140px;
+  height: 100%;
+  float:right;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.nav-menu:hover, .nav-menu.hover{
+  background-image: url(../image/6.png);
+  background-repeat: no-repeat;
+  background-position: center -5px;
+  height: 70px;
+  overflow: visible;
+  color: #FFFFFF;
+}
+.text1{
+color:#444444;
+}
+.foot-left {
+  width: 800px;
+  min-height: 90px;
+  text-align: center;
+}
+.foot-a{
+  font-size: 3em;
+  color: #5C7683;
+  cursor: pointer; 
+}
+.foot-bg{
+  width:100%;
+  padding-top: 30px;
+  height:90px;
+  background-image: url(../image/background/1_10.dark.png);
+  background-repeat: repeat;
+  background-position: 0px 0px;
+  overflow:hidden;
+}
+.foot-right {
+  height: 120px;
+  float: right;
+  margin-right: -80px;
+}
+.card-ul>li{
+list-style-type:none;
+width:380px;
+float:left;
+}
+.card{
+text-align:left;
+color:#7F7F7F;
+line-height:2.1em;
+}
+.card>a>img{
+margin-top:-5px;
+width:128px;
+height:160px;
+}
